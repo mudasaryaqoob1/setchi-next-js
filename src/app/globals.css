@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-modal-header{
+    width: 100% !important;
+    height: 62px;
+    background-color: #E6F2F8 !important;
+    border-radius: 0% !important;
+    top: 0 !important;
+    padding: 14px !important;
+}
+.ant-modal-content{
+    padding: 0 !important;
+    /* padding: 20px 24px !important; */
+    padding-bottom: 20px!important;
+}
+.ant-modal-footer{
+    padding: 20px 24px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
